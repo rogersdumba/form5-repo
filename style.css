@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    padding-top: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 420px;
+    height: 400px;
+}
+
+ .wrapper h1 {
+    font-size: 36px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.input-field input {
+    position: relative;
+    width: 310px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.input-field input:hover {
+    border: 1px solid white; /* Set the border first */
+    border-color: white; /* Then set the border color */
+}
+
+
+.input-field input::placeholder {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.input-field i {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -40px; 
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+}
+.remember-me label {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.remember-me a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.remember-me a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register-here {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.register-here a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.register-here a:hover {
+    text-decoration: underline;
+}
+
+
